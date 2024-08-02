@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speech-record-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["fahlevialir <mukhammad.fahlevi@insignia.co.id>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.37.0"
+speechrecognition = "^3.10.4"
+pydub = "^0.25.1"
+audio-recorder-streamlit = "^0.0.10"
+streamlit-mic-recorder = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
